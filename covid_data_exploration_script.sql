@@ -182,4 +182,4 @@ FROM
 JOIN covid_vaccinations vac
 	ON dea.location = vac.location
 	AND dea.date = vac.date
-where dea.continent is not null
+WHERE dea.continent IS NOT NULL
